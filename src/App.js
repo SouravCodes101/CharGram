@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles.css';
+const App = () => {
+  function copyText () {
 
-function App() {
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <div className="container">
+    <h2>Char Gram - Grammer checker</h2>
+    <input type="text" classname="input"  maxLength={150} placeholder="Please Type Here" className='textarea'/>
+    {/* <textarea  id="textarea" className="textarea" maxLength={150} placeholder="Please Type Here" ></textarea> */}
+    <button onClick={copyText()}> Copy Text</button>
+    <div className="counter-container">
+      <p>Total Character: <span id="total-counter">0</span></p>
+      <p>Remaining Char: <span id="total-counter">150</span></p>
     </div>
+   </div>
   );
 }
 

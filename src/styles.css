@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&family=Lato:wght@100;400;700&family=Libre+Baskerville:wght@400;700&family=Merriweather&family=Work+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+
+html {
+  color: rgb(96, 101, 123);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255,255,255);
+}
+
+.container {
+  padding: 30px;
+  margin-top: 80px;
+}
+
+h2 {
+  color: rgb(43,45,56);
+  text-align: center;
+  font-size: 48px;
+  letter-spacing: -0.2px;
+  font-family: 'Merriweather', serif;
+
+}
+
+p {
+  max-width: 670px;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 100px;
+}
+
+textarea,
+input {
+  width: 100%;
+  height: 316px;
+  padding: 18px;
+  position: relative;
+  resize: none;
+  box-shadow: 0 12px 48px 0px rgb(109 117 141 / 20%);
+  border: 0.5px solid rgb(231, 233, 245);
+  border-radius: 16px;
+}
+
+
+textarea:focus {
+  border: 0.3px solid rgb(43, 45 , 53)
+}
